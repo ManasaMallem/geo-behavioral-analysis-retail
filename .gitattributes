@@ -1,0 +1,14 @@
+*.ipynb linguist-language=Python
+# Treat Jupyter notebooks as Python
+*.ipynb linguist-language=Python
+
+# Don't count data files in language stats
+*.csv linguist-documentation
+
+# Don't count PDF report in language stats
+*.pdf linguist-documentation
+
+# Don't count images or dashboard files (if any)
+*.png linguist-documentation
+*.jpg linguist-documentation
+*.html linguist-documentation
